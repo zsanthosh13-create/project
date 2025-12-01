@@ -1,0 +1,241 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box!important;
+}
+
+.div1{
+    background-image: linear-gradient(to left,black 70%,white 30%);
+    height:100vh;
+    width:100%;
+     animation-name: contact;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+.icon{
+    font-size: 50px;
+    color:black;
+    position:absolute;
+    bottom:0px;
+    right:100px;
+    background-color: white;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    padding:25px;
+}
+
+.div1 h1{
+    font-size: 70px;
+}
+/* 
+h1 span{
+    color:white;
+} */
+
+h1{
+    mix-blend-mode: difference;
+    color:white;
+}
+
+.profile{
+    height:550px;
+    width:450px;
+    margin-left: 100px;
+    background-color: white;
+    border:4px solid black;
+    border-radius: 25px;
+}
+
+.profile img{
+    height:100%;
+    width:100%;
+    position: relative;
+}
+
+.my{
+    font-size:20px;
+    height:80px;
+    width: 260px;
+     background-color:rgb(226, 218, 218);
+     padding:10px;
+    position:absolute;
+    top:530px;
+    left:350px;
+    border-radius: 10px;
+    border:2px solid black;
+}
+
+.cm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.form h3{
+    color:white;
+    mix-blend-mode: difference;
+    color:white;
+}
+
+.inp{
+      width:600px;
+    padding:20px;
+    background-color: black;
+    color:white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    color:white;
+   
+}
+
+.bt{
+    width:600px;
+    border:none;
+    border-radius: 10px;
+    /* text-align: center;  */
+    background-color: white;
+    color: black;
+    padding:10px;
+}
+
+@keyframes contact {
+    0%{
+        right:1200px;
+
+    }
+    100%{
+        right:0px;
+    }
+}
+
+/* @media only screen and (max-width:600px){
+    
+
+    .div h1{
+        text-align: center;
+    }
+
+    .icon{
+         position:absolute;
+    top: 1200px;
+    right:0;
+    border:2px solid black;
+        
+    }
+
+      .bt{
+        border:2px solid black;
+    }
+
+    .cm{
+        display: grid;
+    }
+}
+
+@media only screen and (max-width:900px){
+
+    .div1{
+        height:100%;
+    }
+
+     .div h1{
+        text-align: center;
+    }
+
+    .icon{
+         position:absolute;
+    top: 1200px;
+    right:0;
+    border:2px solid black;
+        
+    }
+
+    .bt{
+        border:2px solid black;
+    }
+
+    .cm{
+        display: grid;
+        justify-content: center;
+    }
+} */
+
+
+@media only screen and (max-width:600px){
+
+    .div1{
+
+        height:100%;
+        width:100%;
+
+    }
+
+    .cm{
+        padding:30px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon{
+        position: absolute;
+        top:1200px;
+        border:2px solid black;
+
+    }
+
+    .my{
+        position: absolute;
+        top:650px;
+        left:200px;
+    }
+
+     .bt{
+        border:2px solid black;
+        width: 100%;
+    }
+
+     .inp{
+        width:100%;
+    
+    }
+}
+
+@media only screen and (max-width:900px){
+
+    .div1{
+
+        height:100%;
+
+    }
+
+    .cm{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icon{
+        position: absolute;
+        top:1200px;
+        border:2px solid black;
+
+    }
+
+     .bt{
+        border:2px solid black;
+        width: 100%;
+    }
+
+    .inp{
+        width:100%;
+    
+    }
+}

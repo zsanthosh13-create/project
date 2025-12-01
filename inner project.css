@@ -1,0 +1,202 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.overall{
+    background-color:black ;
+    height:100vh;
+    width:100%;
+}
+
+.num{
+    font-size: 100px;
+    /* display: ; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    padding-top:50px; 
+       
+}
+
+.ab{
+    background-color: white;
+    color:black;
+    width:400px;
+    padding:10px;
+    text-align: center;
+    border-top-right-radius:40px;
+    border-bottom-right-radius:40px;
+
+}
+
+.nav2{
+    display: flex;
+    gap:40px;
+
+}
+
+.link{
+    color:white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color:white;
+}
+
+.link2{
+    color:white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.link2:hover{
+    color:white;
+}
+
+.boxes{
+    border-radius:10px;
+    background-color:white;
+    height:500px;
+    width:150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.five{gap:10px;
+    display: flex;
+    justify-content: center;
+}
+
+.boxes:hover{
+    height:550px;
+    width:600px;
+    transition:all 1s;
+    display: flex;
+    padding:10px;
+    position: relative;
+    
+}
+
+
+.box1 img,.box2 img,.box3 img,.box4 img,.box5 img{
+    margin-top:10px;
+    margin-left:10px;
+    height:200px;
+    width:200px;
+    border-radius: 15px;
+}
+
+.ap{
+    padding:15px;
+    
+}
+
+.ap h1:hover{
+    position: absolute;
+    top:50px;
+    right:50px;
+}
+
+.num{
+    /* font-size:150px; */
+    position: absolute;
+    bottom: 0;
+    left:50px;
+}
+
+.oth{
+    opacity:0;
+}
+
+.oth:hover{
+    opacity:1;
+}
+
+.mini{
+    height:15px;
+    width:50px;
+    margin-top:7px;
+    border-radius: 20px;
+}
+
+.d1{
+     background-color: red;
+}
+
+.d2{
+  background-color:blue;
+}
+
+.d3{
+    background-color: yellow;
+    width:70px;
+}
+
+.d4{
+    background-color: aqua;
+    width:120px;
+}
+
+.d5{
+    background-color: violet;
+    width:30px;
+}
+
+
+table th{
+    padding:10px;
+
+}
+
+
+@media only screen and (max-width:600px){
+
+    .nav2{
+        display: grid;
+    }
+
+    .ab{
+        height:100px;
+        width:300px;
+    }
+
+    .five{
+        display: grid;
+    }
+}
+
+@media only screen and (max-width:900px){
+
+    .nav2{
+        display: grid;
+    }
+
+    .ab{
+        height:100px;
+        width:300px;
+    }
+
+    .five{
+        display: grid;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
